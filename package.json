@@ -1,6 +1,6 @@
 {
   "name": "pysatellite_jsm6330",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Launching a satellite named jsm6330",
   "main": "index.js",
   "scripts": {
