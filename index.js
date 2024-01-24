@@ -61,3 +61,9 @@ const multiLineAsciiArt = `
 `;
                                                       
 console.log(multiLineAsciiArt);
+
+const name = process.argv;
+const namelist = name.slice(2);
+const selectedPresenter =  namelist[Math.floor(Math.random() * namelist.length)];
+console.log(`발표자: ${selectedPresenter}`);
+

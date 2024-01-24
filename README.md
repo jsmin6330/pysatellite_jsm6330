@@ -5,7 +5,7 @@
 ### use
 ```
 $ npm insatall -g star_jsm6330
-$ star_jsm6330
+$ star_jsm6330 김일우 나이상 삼손이
 Hello satellte_jsm6330
 
 
@@ -62,6 +62,10 @@ Hello satellte_jsm6330
                                                                                +++++++
                                                                +++++++++++++++++++++
                                                                 ++++++++++++++
+
+
+발표자: 나이상
+
 ```
 
 ### dev stack
