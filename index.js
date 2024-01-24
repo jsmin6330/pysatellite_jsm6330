@@ -64,6 +64,11 @@ console.log(multiLineAsciiArt);
 
 const name = process.argv;
 const namelist = name.slice(2);
-const selectedPresenter =  namelist[Math.floor(Math.random() * namelist.length)];
-console.log(`발표자: ${selectedPresenter}`);
+if(namelist.length>=2){
+	const selectedPresenter =  namelist[Math.floor(Math.random() * namelist.length)];
+	console.log(`발표자: ${selectedPresenter}`);
+}
+else{
+	console.log('두 명 이상 이름을 입력하세요');
+}
 
