@@ -1,6 +1,6 @@
 {
   "name": "star_jsm6330",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Launching a satellite named jsm6330",
   "main": "index.js",
   "scripts": {
