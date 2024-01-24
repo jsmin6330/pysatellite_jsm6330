@@ -1,5 +1,5 @@
 {
-  "name": "satellite_jsm6330",
+  "name": "star_jsm6330",
   "version": "0.1.1",
   "description": "Launching a satellite named jsm6330",
   "main": "index.js",
@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "satellite_jsm6330"
+    "star_jsm6330"
   ],
   "author": "jsmin6330",
   "license": "ISC",
   "bin": {
-	  "satellite_jsm6330": "./index.js"
+	  "star_jsm6330": "./index.js"
   }
 }
