@@ -1,12 +1,12 @@
-# pysatellite
-- https://www.npmjs.com/package/pysatellite
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Two_3U_CubeSats.jpg/495px-Two_3U_CubeSats.jpg" width=300 />
+# satellite_jsm6330
+- https://www.npmjs.com/package/satellite_jsm6330
+
 
 ### use
 ```
-$ npm insatall -g pysatellite
-$ pysatellite
-hello pysatellite
+$ npm insatall -g satellite_jsm6330
+$ satellite_jsm6330
+Hello satellite_jsm6330
 ```
 
 ### dev stack

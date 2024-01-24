@@ -1,5 +1,5 @@
 {
-  "name": "pysatellite_jsm6330",
+  "name": "satellite_jsm6330",
   "version": "0.1.1",
   "description": "Launching a satellite named jsm6330",
   "main": "index.js",
@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "pysatellite_jsm6330"
+    "satellite_jsm6330"
   ],
   "author": "jsmin6330",
   "license": "ISC",
   "bin": {
-	  "pysatellite_jsm6330": "./index.js"
+	  "satellite_jsm6330": "./index.js"
   }
 }
