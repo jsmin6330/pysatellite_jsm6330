@@ -10,5 +10,8 @@
     "pysatellite"
   ],
   "author": "jsmin6330",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+	  "pysatellite_jsmin6330": "./index.js"
+  }
 }
