@@ -16,7 +16,6 @@ const multiLineAsciiArt = `
                                                       
 console.log(multiLineAsciiArt);
 
-
 const name = process.argv;
 const namelist = name.slice(2);
 
@@ -43,14 +42,20 @@ for(let i = 0; i<namelist.length; i++){
 }
 
 
-function RandomSelect(namelist){
+function RandomSelect(n = 1, ...namelist){
         if(namelist.length>=2){
-                selectedPresenter =  namelist[Math.floor(Math.random() * namelist.length)];
-                console.log(`${presenterlist.type}: ${selectedPresenter}`);
+		let selectedPresenters = [];//발표자 배열
+		for(let i = 0; i<n; i++){
+			let index = Math.floor(Math.random() * namelist.length);
+            		selectedPresenters.push(namelist[index]);
+            		namelist.splice(index, 1); // 중복 선택 방지
+		}
+
+                console.log(`${presenterlist.type}: ${selectedPresenters.join(', ')}`);
         }
         else{
                 console.log('두 명 이상 이름을 입력하세요');
         }
 }
 
-RandomSelect(presenterlist.names);
+RandomSelect(1, ...presenterlist.names);
